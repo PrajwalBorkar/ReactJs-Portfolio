@@ -9,6 +9,7 @@ import Contact from "./components/contact/ContactsPage";
 import Hero from "./components/hero/Hero";
 import Projects from "./components/projects/Projects";
 import { Toaster } from "react-hot-toast";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -43,6 +44,7 @@ function App() {
           <Projects />
           <Contact />
           <AppFooter />
+          <SpeedInsights />
         </main>
       )}
     </div>
