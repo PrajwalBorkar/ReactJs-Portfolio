@@ -71,14 +71,32 @@ const About = () => {
                 <FaLaptopCode className="h-5 w-5 text-white" />
               </div>
             }
-            title="28 September 2021 - Present "
-            desc={[
-              "Working as a Software Engineer at Mphasis.",
-              "Here I am working on Apache NiFi, Java, Spring Boot.",
-              "I worked on developing and maintaining the Apache NiFi flows.",
-              "Also, I am working on the Java and Spring Boot project for the client.",
-              "Maintaining the code quality and writing the unit test cases.",
-            ]}
+            title="September 2021 - Present "
+            desc={
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  Led the successful migration of a database from Solr to
+                  Oracle, adeptly transitioned from NoSQL to SQL, implemented
+                  necessary codebase changes, prioritized data integrity
+                  throughout the migration process, and reduced downtime by 20%
+                  during critical version updates.
+                </li>
+                <li>
+                  Reduced data processing time by 40%, increased operational
+                  efficiency by 50%, and automated 10M file movement per day
+                  with Apache NiFi workflows.
+                </li>
+                <li>
+                  Revamped Apache NiFi's Grafana dashboard, achieving real-time
+                  performance for 10M daily volume, improving efficiency by 20%
+                </li>
+                <li>
+                  Streamlined monitoring and optimization process by making
+                  metric data accessible via HTTP endpoints, saving 90% of time
+                  and resources for software development.
+                </li>
+              </ul>
+            }
           />
 
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
@@ -91,10 +109,15 @@ const About = () => {
                 <FaGraduationCap className="h-5 w-5 text-white" />
               </div>
             }
-            title="05 August 2021"
-            desc={[
-              "BE in Computer Engineering from Sinhgad Institute of Technology and Science.",
-            ]}
+            title="Jun 2017-Aug 2021"
+            desc={
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  BE in Computer Engineering from Sinhgad Institute of
+                  Technology and Science, Pune.
+                </li>
+              </ul>
+            }
           />
         </motion.div>
       </div>
