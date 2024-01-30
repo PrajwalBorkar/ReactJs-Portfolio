@@ -40,15 +40,6 @@ export default function ProfileMenu() {
           }`}
         >
           <li className="border-b dark:border-white/5 border-black/5">
-            <a
-              onClick={() => setOpen(!open)}
-              className="cursor-pointer flex w-full items-center px-3 py-2 text-sm hover:bg-white dark:hover:bg-neutral-800"
-              href="https://mukuldharashivkar-blog.vercel.app/"
-            >
-              Blogs
-            </a>
-          </li>
-          <li className="border-b dark:border-white/5 border-black/5">
             <Link
               to="about"
               smooth={true}

@@ -1,4 +1,4 @@
-import { FaArrowDown } from "react-icons/fa";
+import { LuMouse } from "react-icons/lu";
 import { HiDocumentText } from "react-icons/hi";
 import avatar from "../../assets/programmer.png";
 import { TypeAnimation } from "react-type-animation";
@@ -166,7 +166,8 @@ const Hero = () => {
 
       {/* {arrow down animation} */}
       <div className="mt-20 mb-0 down-arrow z-0">
-        <FaArrowDown className="text-amber-500 text-3xl animate-bounce " />
+        {/* <FaArrowDown className="text-amber-500 text-3xl animate-bounce " /> */}
+        <LuMouse className="text-neutral-500 text-3xl " />
       </div>
     </section>
   );

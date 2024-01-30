@@ -46,20 +46,21 @@ const About = () => {
           <div className="bg-white dark:bg-[#101111] p-5 rounded-3xl shadow-lg shadow-gray-400/50 dark:shadow-black/30 ">
             {/* border dark:border-white/5 border-black/10 */}
             <p className="text-base font-light">
-              Hi, I am <span className="font-semibold">Prajwal Borkar</span> I
-              am a{" "}
+              Hello, I am <span className="font-semibold">Prajwal Borkar.</span>{" "}
+              I am a{" "}
               <span className="font-semibold">Full Stack Web Developer</span>. I
               am proficient in{" "}
               <span className="font-semibold">
                 {" "}
-                Apache NiFi, ReactJS, Spring, Spring Boot, Java, Tailwind CSS{" "}
+                Apache NiFi, ReactJS, Spring, Spring Boot, Java, Tailwind CSS.
               </span>
-              and many more. I am looking for new opportunities to implement and
-              increase my skills in{" "}
-              <span className="font-semibold">software development </span> and
-              <span className="font-semibold"> web development.</span>
+              I am particularly enthusiastic about contributing to{" "}
+              <span className="font-semibold">frontend technologies.</span> I am
+              excited about the prospect of leveraging my expertise to create
+              impactful and user-centric frontend solutions.
             </p>
           </div>
+
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
             <Reveal width="100%">Work Experience.</Reveal>
           </h4>
@@ -73,9 +74,13 @@ const About = () => {
             title="28 September 2021 - Present "
             desc={[
               "Working as a Software Engineer at Mphasis.",
-              "Here I am working on Apache NiFi, Java, Spring Boot.My role is to develop and maintain the Apache NiFi flows. Also I am working on the Java and Spring Boot project for the client. Maintaining the code quality and writing the unit test cases.",
+              "Here I am working on Apache NiFi, Java, Spring Boot.",
+              "I worked on developing and maintaining the Apache NiFi flows.",
+              "Also, I am working on the Java and Spring Boot project for the client.",
+              "Maintaining the code quality and writing the unit test cases.",
             ]}
           />
+
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
             <Reveal width="100%">Education.</Reveal>
           </h4>
@@ -87,7 +92,9 @@ const About = () => {
               </div>
             }
             title="05 August 2021"
-            desc="BE in Computer Engineering from Sinhgad Institute of Technology and Science."
+            desc={[
+              "BE in Computer Engineering from Sinhgad Institute of Technology and Science.",
+            ]}
           />
         </motion.div>
       </div>

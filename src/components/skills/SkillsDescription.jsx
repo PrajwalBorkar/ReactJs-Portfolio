@@ -63,7 +63,7 @@ const SkillsDescription = () => {
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="font-medium text-lg text-neutral-600 dark:text-neutral-200 mt-5"
+            className="font-medium text-lg text-indigo-400 dark:text-indigo-400 mt-5"
           >
             React
           </motion.h3>
@@ -82,7 +82,7 @@ const SkillsDescription = () => {
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="font-medium text-lg text-neutral-600 dark:text-neutral-200 mt-5"
+            className="font-medium text-lg text-indigo-400 dark:text-indigo-400 mt-5"
           >
             Next.js
           </motion.h3>
@@ -97,14 +97,14 @@ const SkillsDescription = () => {
             highly valuable tool with impressive capabilities. Its quality is
             truly commendable.
           </motion.p>
-          {/* <h3 className="font-medium text-lg text-neutral-600 dark:text-neutral-200 mt-5">
+          <h3 className="font-medium text-lg text-indigo-400 dark:text-indigo-400 mt-5">
             Tailwind CSS
           </h3>
           <p className="text-sm font-light">
             For now, I love using Tailwind CSS for styling, I'm still new to
             Tailwind CSS, but I'm really comfortable using it and I think it's a
             great tool.
-          </p> */}
+          </p>
         </div>
       </div>
 
@@ -129,14 +129,13 @@ const SkillsDescription = () => {
         adhering to established coding standards and best practices.
       </motion.p>
       <div className="flex">
-        {/* <div className="inline-block h-[115px] md:h-[120px] min-h-[1em] w-0.5 self-stretch bg-neutral-300 opacity-100 dark:opacity-50 mt-5" /> */}
         <div className="">
           <motion.h3
             initial={{ x: 50, opacity: 0 }}
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="font-medium text-lg text-neutral-600 dark:text-neutral-200 mt-5"
+            className="font-medium text-lg text-indigo-400 dark:text-green-300 mt-5"
           >
             Spring Boot
           </motion.h3>
@@ -150,6 +149,30 @@ const SkillsDescription = () => {
             I'm interested in creating various types of applications using
             Spring Boot, including things like online stores and note-taking
             apps.
+          </motion.p>
+        </div>
+      </div>
+      <div className="flex">
+        <div className="">
+          <motion.h3
+            initial={{ x: 50, opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="font-medium text-lg text-indigo-500 dark:text-green-300 mt-5"
+          >
+            Node JS
+          </motion.h3>
+          <motion.p
+            initial={{ x: 50, opacity: 0 }}
+            transition={{ duration: 1 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="text-sm font-light"
+          >
+            Im interested in working with Node JS because it's a great tool for
+            creating Back-End applications. I used Node JS to create projects
+            like a chat app and a portfolio.
           </motion.p>
         </div>
       </div>

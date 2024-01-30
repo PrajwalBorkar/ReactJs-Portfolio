@@ -1,33 +1,34 @@
-import { FiGithub, FiTwitter, FiLinkedin, FiGlobe } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiGlobe } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import AppFooterCopyright from "./AppFooterCopyright";
 import { motion } from "framer-motion";
+import { SiLeetcode } from "react-icons/si";
 
 const socialLinks = [
   {
     id: 1,
     icon: <FiGlobe />,
-    url: "https://mukul-personal-site.vercel.app/",
+    url: "https://prajwal-portfolio.netlify.app/",
   },
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://www.github.com/themukuldharashivkar",
+    url: "https://github.com/PrajwalBorkar",
   },
   {
     id: 3,
-    icon: <FiTwitter />,
-    url: "https://www.twitter.com/themukul_99",
+    icon: <FiLinkedin />,
+    url: "https://www.linkedin.com/in/prajwal-borkar/",
   },
   {
     id: 4,
-    icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/themukuldharashivkar",
+    icon: <SiLeetcode />,
+    url: "https://leetcode.com/PrajwalBorkar/",
   },
   {
     id: 5,
     icon: <MdEmail />,
-    url: "mailto:mukul.dharashivkar99@gmail.com",
+    url: "mailto:prajwalborkar5075@gmail.com",
   },
 ];
 
