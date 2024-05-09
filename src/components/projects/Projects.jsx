@@ -4,6 +4,7 @@ import { fadeTop, motionStep } from "./motion";
 import Featured from "./Featured";
 import ecommerce from "../../assets/ecommerce.png";
 import movie from "../../assets/Movie.png";
+import apple from "../../assets/apple.png";
 import snkr from "../../assets/SNKRS.png";
 import pokedex from "../../assets/Pokedex.PNG";
 import Section from "../common/Section";
@@ -13,6 +14,16 @@ import RightSvg from "../../assets/svg/right-pattern.svg";
 export const projectsData = [
   {
     id: 0,
+    thumbnail: apple,
+    title: "Apple iPhone 15 Pro",
+    description: "Apple iPhone 15 Pro website using GSAP and threeJS",
+    live: "https://iphone15pro-website.vercel.app/",
+    code: "https://github.com/PrajwalBorkar/apple-iphone-website/",
+    tech: ["React.js", "GSAP", "ThreeJS", "Tailwind CSS"],
+    featured: true,
+  },
+  {
+    id: 1,
     thumbnail: snkr,
     title: "Sneaker Hub",
     description:
@@ -23,7 +34,7 @@ export const projectsData = [
     featured: true,
   },
   {
-    id: 1,
+    id: 2,
     thumbnail: ecommerce,
     title: "Ecommerce Website",
     description:
@@ -34,7 +45,7 @@ export const projectsData = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     thumbnail: pokedex,
     title: "Pokedex",
     description:
@@ -46,7 +57,7 @@ export const projectsData = [
   },
 
   {
-    id: 3,
+    id: 4,
     thumbnail: movie,
     title: "Movie Flix",
     description:

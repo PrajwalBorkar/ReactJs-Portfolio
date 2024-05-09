@@ -32,7 +32,7 @@ const ProjectCard = ({ live, thumbnail, code, title, description, tech }) => {
         },
       }}
       {...motionStep}
-      className="col-span-12 sm:col-span-6 md:col-span-4 bg-gray-50 dark:bg-neutral-900 rounded-xl p-4 group shadow-lg shadow-gray-400/50 dark:shadow-black/30 z-20"
+      className="col-span-12 sm:col-span-6 md:col-span-6 bg-gray-50 dark:bg-neutral-900 rounded-xl p-4 group shadow-lg shadow-gray-400/50 dark:shadow-black/30 z-20"
     >
       <div>
         <a href={`${live}`}>
@@ -81,10 +81,7 @@ const ProjectCard = ({ live, thumbnail, code, title, description, tech }) => {
           </div>
         </div>
 
-        <h1 className="text-xl font-medium mb-1">
-          {" "}
-          {title}{" "}
-        </h1>
+        <h1 className="text-xl font-medium mb-1"> {title} </h1>
         <p className="dark:text-neutral-200 text-neutral-600 text-sm">
           {" "}
           {description}{" "}
