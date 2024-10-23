@@ -74,6 +74,12 @@ const About = () => {
             title="September 2021 - Present "
             desc={
               <ul className="list-disc pl-5 space-y-2">
+                <li> 
+                  Developed scalable client and server-side applications using Angular for frontend and Java/Spring Boot for
+                  backend, ensuring high performance, testability, and seamless integration.
+                  Optimized existing Angular applications, implementing advanced features by integrating new data fields and
+                  modifying backend REST API calls, enhancing application functionality and user experience.
+                </li>
                 <li>
                   Led the successful migration of a database from Solr to
                   Oracle, adeptly transitioned from NoSQL to SQL, implemented
@@ -82,18 +88,21 @@ const About = () => {
                   during critical version updates.
                 </li>
                 <li>
+                  Automated the daily movement of 10M data files using Apache NiFi, reducing processing time by 40% and
+                  improving operational efficiency by 50%.
                   Reduced data processing time by 40%, increased operational
                   efficiency by 50%, and automated 10M file movement per day
                   with Apache NiFi workflows.
                 </li>
                 <li>
-                  Revamped Apache NiFi's Grafana dashboard, achieving real-time
-                  performance for 10M daily volume, improving efficiency by 20%
+                  Implemented a Grafana dashboard to monitor Apache NiFi performance in real time, improving operational
+                  visibility and enabling data-driven decision-making.
                 </li>
                 <li>
-                  Streamlined monitoring and optimization process by making
-                  metric data accessible via HTTP endpoints, saving 90% of time
-                  and resources for software development.
+                  Automated deployments using Docker and Jenkins, reducing deployment times by 60%, and ensuring
+                  consistency across development, staging, and production environments.
+                  Collaborated with cross-functional teams in an Agile environment, participating in sprint planning, code reviews,
+                  and complex bug fixes to deliver high-quality software on time.
                 </li>
               </ul>
             }
